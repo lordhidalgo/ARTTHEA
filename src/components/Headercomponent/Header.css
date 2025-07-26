@@ -3,19 +3,35 @@
   justify-content: space-between;
   align-items: center;
   padding: 16px 32px;
-  background-color: white;
-  border-bottom: 1px solid #ddd;
+  background-color: whitesmoke;
+  border-bottom: 2px solid #bebebec5;
   position: sticky;
   top: 0;
   z-index: 1000;
 }
 
-.logo {
-  font-size: 1.8rem;
-  font-weight: 700; 
-  color: #222;
-  font-family: 'Georgia', serif;
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
 }
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: transform 0.2s; /* Agrega transición suave */
+}
+
+.logo:hover {
+  transform: scale(1.1); /* Aumenta ligeramente el tamaño */
+}
+
+.logo-img {
+  height: 40px; /* o el tamaño que prefieras */
+  width: auto;
+}
+
 
 .nav {
   display: flex;
@@ -26,30 +42,44 @@
 .nav a {
   text-decoration: none;
   color: #333;
-  font-weight: 500;
+  font-size: 1.2rem;
   transition: color 0.3s;
   align-items: center;
 }
 
 .nav a:hover {
-  color: #9a5cc1;
+  color: #d8c40c;
 }
 
-.upload-btn {
-  background-color: #9a5cc1;
-  color: white;
+.register-btn {
+  color: black;
   padding: 10px 16px;
   border: none;
-  border-radius: 8px;
   cursor: pointer;
   font-weight: 600;
   transition: background-color 0.3s;
+  font-size: 1.2rem ;
+} 
+
+.register-btn:hover {
+  color: #9c7905;
 }
 
-.upload-btn:hover {
-  background-color: #7a3fa1;
+.login-btn {
+  background-color: #d8c40c;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 17px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 1.2rem;
+  transition: background-color 0.3s;
 }
 
+.login-btn:hover {
+  background-color: #9c7905;
+}
 /* Menú responsive */
 .menu-icon {
   display: none;
@@ -89,3 +119,4 @@
     display: flex;
   }
 }
+
