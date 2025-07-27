@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import Button from '@mui/material/Button';
 
 import './Header.css';
-import '../../styles.css';
+import '../../app/globals.css';
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
