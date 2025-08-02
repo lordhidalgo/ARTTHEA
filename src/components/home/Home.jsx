@@ -3,6 +3,7 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import "./Home.css";
+import Footer from "../FooterComponent/Footer";
 
 const FAQItem = ({ question, answer }) => {
   const [open, setOpen] = useState(false);
@@ -105,10 +106,10 @@ const Home = () => {
             <div>
               <h2>Preguntas frecuentes</h2>
               <h5>
-                Nuestra comunidad artística es una plataforma social para artistas
-                que desean compartir, publicar y debatir sobre arte y obras
-                creativas. Es gratuita y solo necesitas registrar tu correo
-                electrónico para crear tu perfil.
+                Nuestra comunidad artística es una plataforma social para
+                artistas que desean compartir, publicar y debatir sobre arte y
+                obras creativas. Es gratuita y solo necesitas registrar tu
+                correo electrónico para crear tu perfil.
               </h5>
             </div>
           </div>
@@ -132,9 +133,6 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <footer className="home-footer">
-        <p>© 2025 ARTTHÉA. Todos los derechos reservados.</p>
-      </footer>
     </>
   );
 };
