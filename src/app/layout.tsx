@@ -1,5 +1,5 @@
 import './globals.css'
-import Header from '../components/Headercomponent/Header'
+import Header from '../components/HeaderComponent/Header'
 
 export const metadata = {
   title: 'ARTTHÉA',
