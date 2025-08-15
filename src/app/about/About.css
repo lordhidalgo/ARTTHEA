@@ -3,23 +3,25 @@
     max-width: 1000px;
     margin: auto;
     font-family: Arial, sans-serif;
-    color: #333;
+    color: #ffffff;
   }
   
-  .about-hero {
+  .about-us {
     text-align: center;
     padding: 3rem 1rem;
-    background: linear-gradient(135deg, #f2f2f2, #e6e6e6);
+    background-image: url(/img/cubismo.webp);
+    background-size: cover;
+    background-position: center;
     border-radius: 10px;
     margin-bottom: 2rem;
   }
   
-  .about-hero h1 {
+  .about-us h1 {
     font-size: 2.5rem;
     margin-bottom: 1rem;
   }
   
-  .about-hero p {
+  .about-us p {
     font-size: 1.1rem;
     line-height: 1.6;
   }
@@ -28,6 +30,10 @@
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    background: linear-gradient(135deg, #fffbe6 0%, #ffe082 100%);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.24);
   }
   
   .about-content h2 {
@@ -37,5 +43,6 @@
   
   .about-content p {
     line-height: 1.6;
+    color: black;
   }
   
