@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from 'react';
-import Button from '@mui/material/Button';
+import Link from 'next/link';
 
 import './Header.css';
 import '../../app/globals.css';
@@ -16,16 +16,16 @@ const Header = () => {
   return (
     <header className="header">
       {/* Logo a la izquierda */}
-      <div className="logo">
+      <Link href="/" className="logo">
         <img src="/img/logo-artthea.png" alt="Logo ARTTHÉA" className="logo-img" />
-      </div>
+      </Link>
 
       {/* Menú al centro */}
       <nav className={`nav ${menuOpen ? 'open' : ''}`}>
-        <a href="#inicio">Galería de arte</a>
-        <a href="#obras">Sobre nosotros</a>
-        <a href="#historia">Soporte</a>
-        <a href="#artistas">Membresía</a>
+        <Link href="#inicio">Galería de arte</Link>
+        <Link href="/about">Sobre nosotros</Link>
+        <Link href="#soporte">Soporte</Link>
+        <Link href="#membresia">Membresía</Link>
       </nav>
 
       {/* Botones a la derecha */}
