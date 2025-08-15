@@ -4,7 +4,7 @@ import './About.css';
 export default function AboutPage() {
   return (
     <main className="about-container">
-      <section className="about-hero">
+      <section className="about-us">
         <h1>Sobre Nosotros</h1>
         <p>
           En ARTTHÉA nos apasiona el arte y la tecnología. Nuestra misión es
