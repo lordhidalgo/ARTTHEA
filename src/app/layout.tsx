@@ -1,6 +1,6 @@
 import "./globals.css";
-import Header from "../components/HeaderComponent/Header.jsx";
-import Footer from "../components/FooterComponent/Footer.jsx"; // Corrige la ruta aquí
+import Header from "../components/HeaderComponent/Header.tsx";
+import Footer from "../components/FooterComponent/Footer.tsx";
 
 export const metadata = {
   title: "ARTTHÉA",
