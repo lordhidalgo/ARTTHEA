@@ -25,7 +25,7 @@ const Header = () => {
         <Link href="#inicio">Galería de arte</Link>
         <Link href="/about">Sobre nosotros</Link>
         <Link href="#soporte">Soporte</Link>
-        <Link href="#membresia">Membresía</Link>
+        <Link href="/PaginaMembresia">Membresía</Link>
       </nav>
 
       {/* Botones a la derecha */}
